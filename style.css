@@ -1,0 +1,51 @@
+*{
+    text-align: justify;
+    text-align: center;
+    font-family: cursive;
+}
+
+.fundo{
+    background: rgb(1,127,167);
+background: linear-gradient(42deg, rgba(1,127,167,1) 56%, rgba(0,212,255,1) 94%);
+background-size: contain;
+}
+
+.fundo1{
+    margin: auto;
+    background-image: url(./img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 80%;
+    max-height: 90%;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.color{
+    background-color: aquamarine;
+}
+
+.mapa{
+    max-width: fit-content;
+}
+
+.bg{
+    width: 20rem;
+    border-radius: 8px;
+}
+
+.input{
+    max-width: 500px;
+    border-radius: 12px;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+.logo{
+    max-width: 90px;
+}
+
+.titulo{
+    color: rgb(196, 25, 25);
+}
